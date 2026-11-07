@@ -1,0 +1,16 @@
+# Rust build output
+target/
+**/*.rs.bk
+Cargo.lock.orig
+
+# Agents
+.claude/
+
+# Render scratch: raw PNG frame sequences (loops are committed as .mp4)
+frames/
+*.frames/
+*-frames/
+out/
+
+# Editor / OS noise
+.DS_Store

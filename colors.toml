@@ -1,0 +1,34 @@
+# Runestone. Generated from crates/runestone/src/palette.rs:
+# `cargo run --release -p runestone-render -- --colors-toml > colors.toml`.
+
+mode = "dark"
+
+accent = "#ff8a3d"
+selection = "#181d26"
+muted = "#6d7480"
+
+background = "#05060a"
+dark_background = "#020304"
+darker_background = "#010102"
+lighter_background = "#12151c"
+
+foreground = "#e9e3d7"
+dark_foreground = "#8b8578"
+light_foreground = "#f4efe6"
+bright_foreground = "#fffaf2"
+
+red = "#e05a3a"
+yellow = "#ffc861"
+orange = "#ff7a29"
+green = "#6fd3a8"
+cyan = "#2fe3c4"
+blue = "#5aa9ff"
+magenta = "#b98cff"
+brown = "#8a6242"
+
+bright_red = "#ff7455"
+bright_yellow = "#ffd98a"
+bright_green = "#9de8c2"
+bright_cyan = "#6ff0dc"
+bright_blue = "#8cc4ff"
+bright_magenta = "#d3b0ff"

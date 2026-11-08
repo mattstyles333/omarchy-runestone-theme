@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = ["crates/runestone", "crates/runestone-render", "crates/runestone-saver"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/mattstyles333/omarchy-runestone-theme"
+
+[profile.release]
+# The render binary draws 4K stills and 1440p loops; a plain release build is plenty and builds
+# faster than an LTO one.
+codegen-units = 16
+lto = false

@@ -1,0 +1,11 @@
+[package]
+name = "runestone"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "The Runestone look as rune scenes: palette, Elder Futhark glyphs and three wallpapers."
+
+[dependencies]
+rune = { git = "https://github.com/anomalyco/rune", rev = "17adeded5ae2e1bed2de03a015eaeaa9e00b93f5" }
+rune-fx = { git = "https://github.com/anomalyco/rune", rev = "17adeded5ae2e1bed2de03a015eaeaa9e00b93f5" }
